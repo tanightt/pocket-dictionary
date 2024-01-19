@@ -12,3 +12,16 @@ body {
 .btn {
   background-color: theme("colors.nav");
 }
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media (min-width: theme("screens.md")) {
+    padding: 0 30px;
+  }
+
+  @media (min-width: theme("screens.xl")) {
+    padding: 0 40px;
+  }
+}
