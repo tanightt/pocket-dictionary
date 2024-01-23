@@ -27,7 +27,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="container h-16 flex justify-between items-center bg-header shadow-md w-full">
+    <header className="container h-16 flex justify-between items-center bg-header shadow-md w-full sticky">
       <a href="/" className="flex gap-2">
         <Image src={logo} height={33} width={31} alt="logo" />
 
