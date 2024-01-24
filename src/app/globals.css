@@ -9,11 +9,9 @@ body {
   font-size: 18px;
 }
 
-.btn {
-  background-color: theme("colors.nav");
-}
-
 .container {
+  width: 100%;
+  max-width: 1600px;
   padding: 0 15px;
   margin: 0 auto;
 
